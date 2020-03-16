@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="" />
+    <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,9 @@
   </component>
   <component name="JupyterTrust" id="aba95f23-941e-418a-bab7-ba7067d0daba" />
   <component name="ProjectId" id="1X7ikqwH3R0D8laTpwFBD00tzYN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -116,17 +121,39 @@
       <workItem from="1580596643258" duration="653000" />
       <workItem from="1580686428832" duration="12000" />
       <workItem from="1584327787450" duration="5150000" />
+      <workItem from="1584392543319" duration="2077000" />
     </task>
+    <task id="LOCAL-00001" summary="Second Update">
+      <created>1584392674314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584392674314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated CSV">
+      <created>1584392746712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584392746712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Second Update" />
+    <MESSAGE value="Updated CSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CSV" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584392673589">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584392746057">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584392673589" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584392746057" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580403780696">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -147,10 +174,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1580403707821" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584392693156">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584392765527">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584392693156" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584392765527" />
     <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584332036454">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

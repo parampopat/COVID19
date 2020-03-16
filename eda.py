@@ -21,7 +21,8 @@ def normalize(a):
     return a
 
 
-dataset = pd.read_csv('COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv')
+# dataset = pd.read_csv('COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv')
+dataset = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv')
 dates = dataset.columns[4:]
 group_by_country = dataset.groupby(['Country/Region'])
 count_by_dates = {}

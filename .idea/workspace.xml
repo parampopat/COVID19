@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_all.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +122,7 @@
       <workItem from="1580596643258" duration="653000" />
       <workItem from="1580686428832" duration="12000" />
       <workItem from="1584327787450" duration="5150000" />
-      <workItem from="1584392543319" duration="2077000" />
+      <workItem from="1584392543319" duration="3722000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>
@@ -150,10 +151,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated CSV" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584392746057">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584403925647">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584392746057" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584403925647" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580403780696">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -186,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="578" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1584392648826" />
-    <state x="489" y="208" key="git4idea.merge.GitPullDialog" timestamp="1584392731588">
+    <state x="489" y="208" key="git4idea.merge.GitPullDialog" timestamp="1584403899439">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="489" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1584392731588" />
+    <state x="489" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1584403899439" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/corona$eda.coverage" NAME="eda Coverage Results" MODIFIED="1580403762407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

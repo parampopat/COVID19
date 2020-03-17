@@ -115,6 +115,7 @@ def plot_data(labels, data, title, save=False):
         for label in labels:
             savefile = savefile + label + '-'
         plt.savefig(savefile + title + '.png', dpi=300)
+        plt.close()
     else:
         plt.show()
 

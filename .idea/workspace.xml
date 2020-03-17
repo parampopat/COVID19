@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/analysis_confirmed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_deaths.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis_recovered.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_all.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +125,7 @@
       <workItem from="1580596643258" duration="653000" />
       <workItem from="1580686428832" duration="12000" />
       <workItem from="1584327787450" duration="5150000" />
-      <workItem from="1584392543319" duration="3722000" />
+      <workItem from="1584392543319" duration="5174000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>
@@ -138,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584392746712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modularized Code">
+      <created>1584403942916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584403942916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,13 +158,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Second Update" />
     <MESSAGE value="Updated CSV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CSV" />
+    <MESSAGE value="Modularized Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modularized Code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584403925647">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584403942298">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584403925647" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584403942298" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580403780696">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -175,22 +186,22 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1580403707821" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584392765527">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584403950240">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584392765527" />
-    <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584332036454">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584403950240" />
+    <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584405551563">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="780" height="428" key="XDebugger.FullValuePopup/0.0.1536.832@0.0.1536.832" timestamp="1584332036454" />
+    <state width="780" height="428" key="XDebugger.FullValuePopup/0.0.1536.832@0.0.1536.832" timestamp="1584405551563" />
     <state x="578" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584392648826">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="578" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1584392648826" />
-    <state x="489" y="208" key="git4idea.merge.GitPullDialog" timestamp="1584403899439">
+    <state x="489" y="208" key="git4idea.merge.GitPullDialog" timestamp="1584405920256">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="489" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1584403899439" />
+    <state x="489" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1584405920256" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/corona$eda.coverage" NAME="eda Coverage Results" MODIFIED="1580403762407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

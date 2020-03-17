@@ -35,6 +35,34 @@ def write(file, content):
     f.close()
 
 
+def arrange_data(data, group_by='Country/Region'):
+    """
+
+    :param data:
+    :param group_by:
+    :return:
+    """
+    count_by_dates = {}
+    count_by_countries = defaultdict(list)
+    count_by_countries_norm = {}
+    group_by_data = data.groupby([group_by])
+
+    # Arrange Data by Dates
+    for i in range(len(dates)):
+        count_by_dates[dates[i]] = group_by_data[dates[i]].sum()
+
+    # Arrange Data by Country
+    for key in count_by_dates.keys():
+        for country in count_by_dates[key].keys():
+            count_by_countries[country].append(count_by_dates[key][country])
+
+    # Z-Score Normalize the data
+    for key in count_by_countries.keys():
+        count_by_countries_norm[key] = normalize(count_by_countries[key])
+
+    return group_by_data, count_by_dates, count_by_countries, count_by_countries_norm
+
+
 def cross_corr(data, to_write=False, file=None):
     """
     Calculates Maximum Cross-Correlation and Delays.
@@ -74,36 +102,27 @@ dataset_recovered = pd.read_csv(
 dataset_deaths = pd.read_csv(
     'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv')
 
-dataset_used = dataset_confirmed
+# Set the dataset that we want to use
+# dataset_used = dataset_confirmed
+# dataset_used = dataset_recovered
+dataset_used = dataset_deaths
+
+# Sometimes the data source has added an empty column for the current date.
 if np.isnan(dataset_used.iloc[0, -1]):
     dates = dataset_used.columns[4:-1]
 else:
     dates = dataset_used.columns[4:]
 
-group_by_country = dataset_confirmed.groupby(['Country/Region'])
-count_by_dates = {}
-count_by_countries = defaultdict(list)
-count_by_countries_norm = {}
-
-# Arrange Data by Dates
-for i in range(len(dates)):
-    count_by_dates[dates[i]] = group_by_country[dates[i]].sum()
-
-# Arrange Data by Country
-for key in count_by_dates.keys():
-    for country in count_by_dates[key].keys():
-        count_by_countries[country].append(count_by_dates[key][country])
-
-# Z-Score Normalize the data
-for key in count_by_countries.keys():
-    count_by_countries_norm[key] = normalize(count_by_countries[key])
+# Group the data by country, this can be changed to region or state as well.
+group_by_country, count_by_dates, count_by_countries, count_by_countries_norm = arrange_data(dataset_used)
 
 # Calculate Maximum Cross-Correlation and Delays.
-file = 'all_all.csv'
-
-# Plot Something
+# file = 'analysis_confirmed.csv'
+# file = 'analysis_recovered.csv'
+file = 'analysis_deaths.csv'
 corr_data = cross_corr(count_by_countries_norm, to_write=True, file=file)
 
+# Plot Something
 plt.plot(count_by_countries_norm['Italy'], label='Italy')
 plt.plot(count_by_countries_norm['Lebanon'], label='Lebanon')
 plt.legend()

@@ -95,6 +95,30 @@ def cross_corr(data, to_write=False, file=None):
     return max_indices
 
 
+def plot_data(labels, data, title, save=False):
+    """
+
+    :param labels: List of data labels to plot
+    :param data:
+    :param title:
+    :param save:
+    :return:
+    """
+    for label in labels:
+        plt.plot(data[label], label=label)
+    plt.title(title)
+    plt.xlabel('Days from 1/22/20')
+    plt.ylabel('Z-Score Normalized Count')
+    plt.legend()
+    if save:
+        savefile = ""
+        for label in labels:
+            savefile = savefile + label + '-'
+        plt.savefig(savefile + title + '.png', dpi=300)
+    else:
+        plt.show()
+
+
 dataset_confirmed = pd.read_csv(
     'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv')
 dataset_recovered = pd.read_csv(
@@ -123,7 +147,4 @@ file = 'analysis_deaths.csv'
 corr_data = cross_corr(count_by_countries_norm, to_write=True, file=file)
 
 # Plot Something
-plt.plot(count_by_countries_norm['Italy'], label='Italy')
-plt.plot(count_by_countries_norm['Lebanon'], label='Lebanon')
-plt.legend()
-plt.show()
+plot_data(['US', 'Iran'], count_by_countries_norm, 'Deaths', save=True)

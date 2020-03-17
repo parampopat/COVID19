@@ -128,9 +128,9 @@ dataset_deaths = pd.read_csv(
     'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv')
 
 # Set the dataset that we want to use
-# dataset_used = dataset_confirmed
+dataset_used = dataset_confirmed
 # dataset_used = dataset_recovered
-dataset_used = dataset_deaths
+# dataset_used = dataset_deaths
 
 # Sometimes the data source has added an empty column for the current date.
 if np.isnan(dataset_used.iloc[0, -1]):
@@ -142,10 +142,10 @@ else:
 group_by_country, count_by_dates, count_by_countries, count_by_countries_norm = arrange_data(dataset_used)
 
 # Calculate Maximum Cross-Correlation and Delays.
-# file = 'analysis_confirmed.csv'
+file = 'analysis_confirmed.csv'
 # file = 'analysis_recovered.csv'
-file = 'analysis_deaths.csv'
+# file = 'analysis_deaths.csv'
 corr_data = cross_corr(count_by_countries_norm, to_write=True, file=file)
 
 # Plot Something
-plot_data(['US', 'Iran'], count_by_countries_norm, 'Deaths', save=True)
+plot_data(['US', 'Germany'], count_by_countries_norm, 'Confirmed', save=True)

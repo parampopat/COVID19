@@ -5,7 +5,7 @@ The idea is to do normalized analysis to case data for COVID19 obtained from htt
 https://github.com/parampopat/COVID19/blob/master/analysis_confirmed.csv
 <br><br>
 
-![Image of Italy and Lebanon's Case Growth Rate](ItalyvsLebanon.png)
+![Image of US and Germany's Case Growth Rate](US-Germany-Confirmed.png)
 
 <b>Recovered Cases:</b><br>
 https://github.com/parampopat/COVID19/blob/master/analysis_recovered.csv

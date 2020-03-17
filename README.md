@@ -15,5 +15,5 @@ https://github.com/parampopat/COVID19/blob/master/analysis_recovered.csv
 https://github.com/parampopat/COVID19/blob/master/analysis_deaths.csv
 <br><br>
 
-![Image of Italy and Lebanon's Case Growth Rate](US-Iran-Deaths.png)
+![Image of US and Iran's Case Death Rate](US-Iran-Deaths.png)
 

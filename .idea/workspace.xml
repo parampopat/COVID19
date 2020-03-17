@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/US-Iran-Deaths.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <workItem from="1580596643258" duration="653000" />
       <workItem from="1580686428832" duration="12000" />
       <workItem from="1584327787450" duration="5150000" />
-      <workItem from="1584392543319" duration="6276000" />
+      <workItem from="1584392543319" duration="6483000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584405938439</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated Code">
+      <created>1584407128116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584407128116</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,13 +171,14 @@
     <MESSAGE value="Updated CSV" />
     <MESSAGE value="Modularized Code" />
     <MESSAGE value="Analysed Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Analysed Data" />
+    <MESSAGE value="Updated Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584405937691">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584407127419">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584405937691" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584407127419" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580403780696">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -191,10 +199,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1580403707821" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584405945152">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584407133154">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584405945152" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584407133154" />
     <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584405551563">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

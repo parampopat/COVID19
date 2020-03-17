@@ -11,6 +11,8 @@ https://github.com/parampopat/COVID19/blob/master/analysis_confirmed.csv
 https://github.com/parampopat/COVID19/blob/master/analysis_recovered.csv
 <br><br>
 
+![Image of US and Germany's Case Growth Rate](US-Singapore-Recovered.png)
+
 <b>Death Cases:</b><br>
 https://github.com/parampopat/COVID19/blob/master/analysis_deaths.csv
 <br><br>

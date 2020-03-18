@@ -22,4 +22,7 @@ The idea is to do normalized analysis on case data for COVID19 obtained from <a 
 <b>Author:</b><br>
 Param Popat (<a href="https://www.linkedin.com/in/parampopat/">LinkedIn</a>)
 <br><br>
+<b>Source:</b><br>
+<a href="https://github.com/parampopat/COVID19">GitHub</a>
+<br><br>
 

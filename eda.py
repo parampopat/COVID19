@@ -23,23 +23,25 @@ def normalize(a):
     return a
 
 
-def write(file, content):
+def write(file, content, mode='a'):
     """
     Writes content to a file
+    :param mode: File mode either 'a' or 'w'
     :param file: file name
     :param content:content to be written onto file
     :return:
     """
-    f = open(file, "a")
+    f = open(file, mode)
     f.write(content)
     f.close()
 
 
-def arrange_data(data, group_by='Country/Region'):
+def arrange_data(data, dates, group_by='Country/Region'):
     """
-
-    :param data:
-    :param group_by:
+    Arranges data into dictionaries.
+    :param dates: List of dates over which data is to be truncated
+    :param data: Data DataFrame which is to be arranged
+    :param group_by: Column header over which data is to be grouped by
     :return:
     """
     count_by_dates = {}
@@ -75,7 +77,7 @@ def cross_corr(data, to_write=False, file=None):
         if file is None:
             raise ValueError("Expected input for 'file'")
         st = str("Country_1,Country_2,Delay,Pearson")
-        write(file=file, content=st)
+        write(file=file, content=st, mode='w')
 
     max_indices = defaultdict(list)
     for key in data.keys():
@@ -95,13 +97,13 @@ def cross_corr(data, to_write=False, file=None):
     return max_indices
 
 
-def plot_data(labels, data, title, save=False):
+def plot_data(labels, data, title='', save=False):
     """
-
+    Plots data
     :param labels: List of data labels to plot
-    :param data:
-    :param title:
-    :param save:
+    :param data: Data from which plot is to be generated
+    :param title: Title of the chart
+    :param save: True to save plot as a png file
     :return:
     """
     for label in labels:
@@ -120,32 +122,53 @@ def plot_data(labels, data, title, save=False):
         plt.show()
 
 
-dataset_confirmed = pd.read_csv(
-    'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv')
-dataset_recovered = pd.read_csv(
-    'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv')
-dataset_deaths = pd.read_csv(
-    'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv')
+def analyze(dataset, type, to_plot=False, labels=None, save_plot=True, save_csv=True):
+    """
 
-# Set the dataset that we want to use
-# dataset_used = dataset_confirmed
-dataset_used = dataset_recovered
-# dataset_used = dataset_deaths
+    :param dataset: Dataset DataFrame
+    :param type: Type of cases
+    :param to_plot: True to plot
+    :param labels: Plotting labels
+    :param save_plot: True to save plots, False will show the plot
+    :param save_csv: True to save correlation data into CSV file
+    :return: Correlation Data
+    """
+    # Sometimes the data source has added an empty column for the current date.
+    if np.isnan(dataset.iloc[0, -1]):
+        dates = dataset.columns[4:-1]
+    else:
+        dates = dataset.columns[4:]
 
-# Sometimes the data source has added an empty column for the current date.
-if np.isnan(dataset_used.iloc[0, -1]):
-    dates = dataset_used.columns[4:-1]
-else:
-    dates = dataset_used.columns[4:]
+    # Group the data by country, this can be changed to region or state as well.
+    group_by_country, count_by_dates, count_by_countries, count_by_countries_norm = arrange_data(data=dataset,
+                                                                                                 dates=dates)
 
-# Group the data by country, this can be changed to region or state as well.
-group_by_country, count_by_dates, count_by_countries, count_by_countries_norm = arrange_data(dataset_used)
+    # Calculate Maximum Cross-Correlation and Delays.
+    file = 'analysis_' + type.lower() + '.csv'
+    corr_data = cross_corr(count_by_countries_norm, to_write=save_csv, file=file)
 
-# Calculate Maximum Cross-Correlation and Delays.
-# file = 'analysis_confirmed.csv'
-file = 'analysis_recovered.csv'
-# file = 'analysis_deaths.csv'
-corr_data = cross_corr(count_by_countries_norm, to_write=True, file=file)
+    # Plot Something
+    if to_plot:
+        if labels is None:
+            raise ValueError("Expected input for 'labels'")
+        plot_data(labels=labels, data=count_by_countries_norm, title=type, save=save_plot)
+    return corr_data
 
-# Plot Something
-plot_data(['US', 'Singapore'], count_by_countries_norm, 'Recovered', save=True)
+
+# Analysis of confirmed cases
+url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
+dataset = pd.read_csv(url)
+correlation_confirmed = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+                                labels=['US', 'Germany'])
+
+# Analysis of recovered cases
+url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv'
+dataset = pd.read_csv(url)
+correlation_recovered = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+                                labels=['US', 'Singapore'])
+
+# Analysis of death cases
+url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv'
+dataset = pd.read_csv(url)
+correlation_deaths = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+                             labels=['US', 'Iran'])

@@ -122,7 +122,7 @@
       <workItem from="1580686428832" duration="12000" />
       <workItem from="1584327787450" duration="5150000" />
       <workItem from="1584392543319" duration="8474000" />
-      <workItem from="1584558767272" duration="2498000" />
+      <workItem from="1584558767272" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>
@@ -226,10 +226,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584407534707" />
-    <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584405551563">
+    <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584562576569">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="780" height="428" key="XDebugger.FullValuePopup/0.0.1536.832@0.0.1536.832" timestamp="1584405551563" />
+    <state width="780" height="428" key="XDebugger.FullValuePopup/0.0.1536.832@0.0.1536.832" timestamp="1584562576569" />
     <state x="578" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584392648826">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

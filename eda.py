@@ -155,20 +155,21 @@ def analyze(dataset, type, to_plot=False, labels=None, save_plot=True, save_csv=
     return corr_data
 
 
-# Analysis of confirmed cases
-url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
-dataset = pd.read_csv(url)
-correlation_confirmed = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
-                                labels=['US', 'Germany'])
+if __name__ == '__main__':
+    # Analysis of confirmed cases
+    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
+    dataset = pd.read_csv(url)
+    correlation_confirmed = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+                                    labels=['US', 'Germany'])
 
-# Analysis of recovered cases
-url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv'
-dataset = pd.read_csv(url)
-correlation_recovered = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
-                                labels=['US', 'Singapore'])
+    # Analysis of recovered cases
+    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv'
+    dataset = pd.read_csv(url)
+    correlation_recovered = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+                                    labels=['US', 'Singapore'])
 
-# Analysis of death cases
-url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv'
-dataset = pd.read_csv(url)
-correlation_deaths = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
-                             labels=['US', 'Iran'])
+    # Analysis of death cases
+    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv'
+    dataset = pd.read_csv(url)
+    correlation_deaths = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+                                 labels=['US', 'Iran'])

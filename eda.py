@@ -166,7 +166,7 @@ if __name__ == '__main__':
     url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv'
     dataset = pd.read_csv(url)
     correlation_recovered = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
-                                    labels=['US', 'Singapore'])
+                                    labels=['Italy', 'Iraq'])
 
     # Analysis of death cases
     url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv'

@@ -11,7 +11,7 @@ The idea is to do normalized analysis on case data for COVID19 obtained from <a 
 <a href="https://github.com/parampopat/COVID19/blob/master/analysis_recovered.csv">https://github.com/parampopat/COVID19/blob/master/analysis_recovered.csv</a>
 <br><br>
 
-![Image of US and Germany's Case Growth Rate](US-Singapore-Recovered.png)
+![Image of US and Germany's Case Growth Rate](Italy-Iraq-Recovered.png)
 
 <b>Death Cases:</b><br>
 <a href="https://github.com/parampopat/COVID19/blob/master/analysis_deaths.csv">https://github.com/parampopat/COVID19/blob/master/analysis_deaths.csv</a>

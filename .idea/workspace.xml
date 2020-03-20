@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Italy-Iraq-Recovered.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-Germany-Confirmed.png" beforeDir="false" afterPath="$PROJECT_DIR$/US-Germany-Confirmed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-Iran-Deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/US-Iran-Deaths.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-Singapore-Recovered.png" beforeDir="false" afterPath="$PROJECT_DIR$/US-Singapore-Recovered.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_confirmed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_confirmed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_deaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_deaths.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_recovered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_recovered.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +130,7 @@
       <workItem from="1580686428832" duration="12000" />
       <workItem from="1584327787450" duration="5150000" />
       <workItem from="1584392543319" duration="8474000" />
-      <workItem from="1584558767272" duration="3756000" />
+      <workItem from="1584558767272" duration="5447000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>
@@ -180,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584407528240</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Source">
+      <created>1584563526475</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584563526476</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,13 +210,14 @@
     <MESSAGE value="Updated Code" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Fix plot bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix plot bug" />
+    <MESSAGE value="Added Source" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Source" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584407527438">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584563525888">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584407527438" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584563525888" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580403780696">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -222,14 +238,14 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1584558785816" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584407534707">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584563533992">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584407534707" />
-    <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584562576569">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584563533992" />
+    <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584742864117">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="780" height="428" key="XDebugger.FullValuePopup/0.0.1536.832@0.0.1536.832" timestamp="1584562576569" />
+    <state width="780" height="428" key="XDebugger.FullValuePopup/0.0.1536.832@0.0.1536.832" timestamp="1584742864117" />
     <state x="578" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584392648826">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

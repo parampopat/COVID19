@@ -65,7 +65,7 @@ def arrange_data(data, dates, group_by='Country/Region'):
     return group_by_data, count_by_dates, count_by_countries, count_by_countries_norm
 
 
-def cross_corr(data, to_write=False, file=None):
+def cross_corr(data, raw_data, to_write=False, file=None):
     """
     Calculates Maximum Cross-Correlation and Delays.
     :param file: File name
@@ -76,7 +76,7 @@ def cross_corr(data, to_write=False, file=None):
     if to_write:
         if file is None:
             raise ValueError("Expected input for 'file'")
-        st = str("Country_1,Country_2,Delay,Pearson")
+        st = str("Country_1,Country_2,Country_1_raw_count,Country_2_raw_count,Delay,Pearson")
         write(file=file, content=st, mode='w')
 
     max_indices = defaultdict(list)
@@ -91,7 +91,7 @@ def cross_corr(data, to_write=False, file=None):
                 max_indices[key].append({key_1: [max_index, rel_corr.max()]})
                 if to_write:
                     st = str(key.replace(',', '')) + "," + str(key_1.replace(',', '')) + "," + str(
-                        max_index) + "," + str(
+                        raw_data[key][-1]) + "," + str(raw_data[key_1][-1]) + ',' + str(max_index) + "," + str(
                         rel_corr.max())
                     write(file=file, content="\n" + st)
     return max_indices
@@ -145,7 +145,7 @@ def analyze(dataset, type, to_plot=False, labels=None, save_plot=True, save_csv=
 
     # Calculate Maximum Cross-Correlation and Delays.
     file = 'analysis_' + type.lower() + '.csv'
-    corr_data = cross_corr(count_by_countries_norm, to_write=save_csv, file=file)
+    corr_data = cross_corr(count_by_countries_norm, count_by_countries, to_write=save_csv, file=file)
 
     # Plot Something
     if to_plot:

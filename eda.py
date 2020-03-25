@@ -173,6 +173,3 @@ if __name__ == '__main__':
     dataset = pd.read_csv(url)
     correlation_deaths = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
                                  labels=['US', 'Iran'])
-
-    for k, v in correlation_confirmed['US'][0].items():
-        print(v[1])

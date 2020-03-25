@@ -1,163 +1,184 @@
 Country_1,Country_2,Country_1_raw_count,Country_2_raw_count,Delay,Pearson
-Afghanistan,Jamaica,1,2,-0.0,59.0
-Albania,Afghanistan,0,1,-58.0,
-Algeria,Kuwait,32,18,-0.0,56.410223213995955
-Andorra,Netherlands,1,2,-0.0,54.65620258277399
-Angola,Afghanistan,0,1,-58.0,
-Antigua and Barbuda,Afghanistan,0,1,-58.0,
-Argentina,Hungary,3,2,-0.0,58.4745037072999
-Armenia,Peru,1,1,-0.0,59.0
-Australia,China,26,71266,-0.0,56.77644257077355
-Austria,Belarus,9,5,-0.0,56.99947819621313
-Azerbaijan,Bahrain,6,100,-0.0,57.61883592782836
-Bahamas The,Afghanistan,0,1,-58.0,
-Bahrain,Italy,100,4440,-0.0,58.160792704929406
-Bangladesh,Brazil,3,2,-0.0,58.81127268512769
-Barbados,Afghanistan,0,1,-58.0,
-Belarus,Oman,5,12,-0.0,57.788393721149156
-Belgium,Sweden,1,16,-1.0,58.53395203801843
-Benin,Afghanistan,0,1,-58.0,
-Bhutan,Afghanistan,0,1,-58.0,
-Bolivia,Afghanistan,0,1,-58.0,
-Bosnia and Herzegovina,Peru,2,1,-0.0,59.0
-Brazil,Bangladesh,2,3,-0.0,58.81127268512769
-Brunei,Chile,1,6,-0.0,59.00000000000001
-Bulgaria,Afghanistan,0,1,-58.0,
-Burkina Faso,Afghanistan,0,1,-58.0,
-Cabo Verde,Afghanistan,0,1,-58.0,
-Cambodia,Nepal,1,1,-0.0,59.00000000000003
-Cameroon,Afghanistan,0,1,-58.0,
-Canada,China,9,71266,-0.0,58.321653586872166
-Central African Republic,Afghanistan,0,1,-58.0,
-Chad,Afghanistan,0,1,-58.0,
-Chile,Brunei,6,1,-0.0,59.00000000000001
-China,Canada,71266,9,-0.0,58.321653586872166
-Colombia,Peru,1,1,-0.0,59.0
-Congo (Brazzaville),Afghanistan,0,1,-58.0,
-Congo (Kinshasa),Afghanistan,0,1,-58.0,
-Costa Rica,Afghanistan,0,1,-58.0,
-Cote d'Ivoire,Peru,1,1,-0.0,59.0
-Croatia,Argentina,5,3,-0.0,57.98328841553533
-Cruise Ship,Egypt,325,39,-0.0,57.989425547997676
-Cuba,Afghanistan,0,1,-58.0,
-Cyprus,Afghanistan,0,1,-58.0,
-Czechia,Afghanistan,4,1,-0.0,58.502740935898046
-Denmark,Norway,1,1,-3.0,53.6554809716386
-Djibouti,Afghanistan,0,1,-58.0,
-Dominican Republic,Afghanistan,0,1,-58.0,
-Ecuador,Afghanistan,0,1,-58.0,
-Egypt,Cruise Ship,39,325,-0.0,57.989425547997676
-El Salvador,Afghanistan,0,1,-58.0,
-Equatorial Guinea,Afghanistan,0,1,-58.0,
-Estonia,Lithuania,1,1,-0.0,59.00000000000002
-Eswatini,Afghanistan,0,1,-58.0,
-Ethiopia,Afghanistan,0,1,-58.0,
-Fiji,Afghanistan,0,1,-58.0,
-Finland,Estonia,10,1,-0.0,58.22934705351314
-France,Singapore,12,124,-0.0,56.165458392141396
-Gabon,Afghanistan,0,1,-58.0,
-Gambia The,Afghanistan,0,1,-58.0,
-Georgia,Afghanistan,1,1,-0.0,59.0
-Germany,Spain,180,1588,-0.0,56.3102375282544
-Ghana,Afghanistan,0,1,-58.0,
-Greece,Qatar,19,10,-0.0,58.9788438771381
-Guatemala,Afghanistan,0,1,-58.0,
-Guinea,Afghanistan,0,1,-58.0,
-Guyana,Afghanistan,0,1,-58.0,
-Haiti,Afghanistan,0,1,-58.0,
-Holy See,Afghanistan,0,1,-58.0,
-Honduras,Afghanistan,0,1,-58.0,
-Hungary,Argentina,2,3,-0.0,58.4745037072999
-Iceland,Austria,5,9,-0.0,47.37734542240256
-India,Finland,20,10,-0.0,56.32666426627696
-Indonesia,Portugal,15,5,-0.0,57.70754955366581
-Iran,Senegal,6745,2,-0.0,57.288882544030535
-Iraq,Bahrain,49,100,-0.0,58.146692499974755
-Ireland,Peru,5,1,-0.0,59.0
-Israel,Romania,14,25,-0.0,57.50357378802741
-Italy,Bahrain,4440,100,-0.0,58.160792704929406
-Jamaica,Afghanistan,2,1,-0.0,59.0
-Japan,United Arab Emirates,191,31,-0.0,57.30477138395845
-Jordan,Morocco,1,1,-0.0,59.0
-Kazakhstan,Afghanistan,0,1,-58.0,
-Kenya,Afghanistan,0,1,-58.0,
-Korea South,Italy,1540,4440,-0.0,57.85241986259983
-Kosovo,Afghanistan,0,1,-58.0,
-Kuwait,Romania,18,25,-0.0,58.0225701250849
-Kyrgyzstan,Afghanistan,0,1,-58.0,
-Latvia,Mexico,1,4,-0.0,57.71630092132407
-Lebanon,Israel,4,14,-0.0,57.15427187095514
-Liberia,Afghanistan,0,1,-58.0,
-Liechtenstein,Afghanistan,0,1,-58.0,
-Lithuania,Estonia,1,1,-0.0,59.00000000000002
-Luxembourg,Afghanistan,0,1,-58.0,
-Madagascar,Afghanistan,0,1,-58.0,
-Malaysia,India,87,20,-0.0,56.251715365078134
-Maldives,Afghanistan,0,1,-58.0,
-Malta,Korea South,2,1540,-0.0,57.393841181363975
-Martinique,Afghanistan,0,1,-58.0,
-Mauritania,Afghanistan,0,1,-58.0,
-Mauritius,Afghanistan,0,1,-58.0,
-Mexico,Oman,4,12,-0.0,58.15669566302672
-Moldova,Peru,1,1,-0.0,59.0
-Monaco,Afghanistan,0,1,-58.0,
-Mongolia,Afghanistan,0,1,-58.0,
-Montenegro,Afghanistan,0,1,-58.0,
-Morocco,Jordan,1,1,-0.0,59.0
-Namibia,Afghanistan,0,1,-58.0,
-Nepal,Cambodia,1,1,-0.0,59.00000000000003
-Netherlands,San Marino,2,4,-0.0,59.00000000000001
-New Zealand,Afghanistan,0,1,-58.0,
-Nicaragua,Afghanistan,0,1,-58.0,
-Niger,Afghanistan,0,1,-58.0,
-Nigeria,Poland,1,1,2.0,58.93096676228392
-North Macedonia,Morocco,1,1,-0.0,59.0
-Norway,Latvia,1,1,-1.0,56.84408500451038
-Oman,Mexico,12,4,-0.0,58.15669566302672
-Pakistan,Sweden,13,16,-0.0,58.09256328194783
-Panama,Afghanistan,0,1,-58.0,
-Papua New Guinea,Afghanistan,0,1,-58.0,
-Paraguay,Afghanistan,0,1,-58.0,
-Peru,Moldova,1,1,-0.0,59.0
-Philippines,United Kingdom,8,67,-0.0,56.75901665443815
-Poland,Nigeria,1,1,-2.0,58.93096676228392
-Portugal,Indonesia,5,15,-0.0,57.70754955366581
-Qatar,Greece,10,19,-0.0,58.9788438771381
-Romania,Italy,25,4440,-0.0,58.14751383652935
-Russia,United Arab Emirates,9,31,-0.0,55.73717316868144
-Rwanda,Afghanistan,0,1,-58.0,
-Saint Lucia,Afghanistan,0,1,-58.0,
-Saint Vincent and the Grenadines,Afghanistan,0,1,-58.0,
-San Marino,Netherlands,4,2,-0.0,59.00000000000001
-Saudi Arabia,Croatia,8,5,-0.0,57.82877767782469
-Senegal,Iran,2,6745,-0.0,57.288882544030535
-Serbia,Afghanistan,1,1,-0.0,59.0
-Seychelles,Afghanistan,0,1,-58.0,
-Singapore,China,124,71266,-0.0,58.313582239215634
-Slovakia,Afghanistan,0,1,-58.0,
-Slovenia,Afghanistan,0,1,-58.0,
-Somalia,Afghanistan,0,1,-58.0,
-South Africa,Afghanistan,0,1,-58.0,
-Spain,Saudi Arabia,1588,8,-0.0,57.6226801743604
-Sri Lanka,Philippines,3,8,-0.0,46.81376119872002
-Sudan,Afghanistan,0,1,-58.0,
-Suriname,Afghanistan,0,1,-58.0,
-Sweden,Belgium,16,1,1.0,58.53395203801843
-Switzerland,Lebanon,15,4,-0.0,55.88672726850725
-Taiwan*,Japan,26,191,-0.0,57.14885743285286
-Tanzania,Afghanistan,0,1,-58.0,
-Thailand,Singapore,42,124,-0.0,58.07870257342152
-Togo,Chile,1,6,-0.0,59.00000000000001
-Trinidad and Tobago,Afghanistan,0,1,-58.0,
-Tunisia,Afghanistan,0,1,-58.0,
-Turkey,Afghanistan,0,1,-58.0,
-US,Malaysia,0,87,-3.0,54.40815849150108
-Ukraine,Afghanistan,0,1,-58.0,
-United Arab Emirates,Japan,31,191,-0.0,57.30477138395845
-United Kingdom,Israel,67,14,-0.0,57.20583120097246
-Uruguay,Afghanistan,0,1,-58.0,
-Uzbekistan,Afghanistan,0,1,-58.0,
-Venezuela,Afghanistan,0,1,-58.0,
-Vietnam,France,16,12,-0.0,55.84183178581003
-Zambia,Afghanistan,0,1,-58.0,
-Zimbabwe,Afghanistan,0,1,-58.0,
+Afghanistan,Jamaica,1.0,2.0,-0.0,62.0
+Albania,Trinidad and Tobago,2.0,1.0,-0.0,62.0
+Algeria,Indonesia,65.0,29.0,-0.0,60.89417350509157
+Andorra,Netherlands,1.0,2.0,-0.0,58.54351080472248
+Angola,Afghanistan,0.0,1.0,-61.0,
+Antigua and Barbuda,Afghanistan,0.0,1.0,-61.0,
+Argentina,Croatia,3.0,5.0,-0.0,61.27936000421931
+Armenia,Colombia,2.0,3.0,-0.0,60.872452849546
+Australia,Lebanon,88.0,8.0,-0.0,56.74055106955386
+Austria,Oman,9.0,17.0,-0.0,58.995971436102046
+Azerbaijan,Bahrain,10.0,149.0,-0.0,60.99240642744911
+Bahamas The,Afghanistan,0.0,1.0,-61.0,
+Bahrain,Italy,149.0,7024.0,-0.0,61.441674878598384
+Bangladesh,Brazil,3.0,2.0,-0.0,61.87245736603364
+Barbados,Afghanistan,0.0,1.0,-61.0,
+Belarus,Israel,15.0,37.0,-0.0,61.13140562208184
+Belgium,Ukraine,263.0,1.0,-0.0,61.714962057664785
+Benin,Afghanistan,0.0,1.0,-61.0,
+Bhutan,Afghanistan,0.0,1.0,-61.0,
+Bolivia,Afghanistan,0.0,1.0,-61.0,
+Bosnia and Herzegovina,Ireland,2.0,5.0,-0.0,62.00000000000002
+Brazil,Bangladesh,2.0,3.0,-0.0,61.87245736603364
+Brunei,Chile,2.0,8.0,-0.0,60.71724535707834
+Bulgaria,Albania,3.0,2.0,-0.0,62.0
+Burkina Faso,Albania,5.0,2.0,-0.0,62.0
+Cabo Verde,Afghanistan,0.0,1.0,-61.0,
+Cambodia,Nepal,1.0,1.0,-0.0,62.000000000000036
+Cameroon,Afghanistan,0.0,1.0,-61.0,
+Canada,China,10.0,72814.0,-0.0,61.35821119778729
+Cape Verde,Afghanistan,0.0,1.0,-61.0,
+Central African Republic,Afghanistan,0.0,1.0,-61.0,
+Chad,Afghanistan,0.0,1.0,-61.0,
+Chile,Togo,8.0,1.0,-0.0,61.3345834703113
+China,Canada,72814.0,10.0,-0.0,61.35821119778729
+Colombia,Armenia,3.0,2.0,-0.0,60.872452849546
+Congo (Brazzaville),Afghanistan,0.0,1.0,-61.0,
+Congo (Kinshasa),Afghanistan,0.0,1.0,-61.0,
+Costa Rica,Bulgaria,2.0,3.0,-0.0,62.0
+Cote d'Ivoire,Ireland,1.0,5.0,-0.0,62.00000000000002
+Croatia,Argentina,5.0,3.0,-0.0,61.27936000421931
+Cruise Ship,Latvia,325.0,1.0,1.0,59.856661514345944
+Cuba,Afghanistan,0.0,1.0,-61.0,
+Cyprus,Monaco,3.0,1.0,-0.0,62.0
+Czechia,Kuwait,6.0,27.0,-0.0,60.235706269871066
+Denmark,Norway,1.0,1.0,-3.0,57.411665110673674
+Djibouti,Afghanistan,0.0,1.0,-61.0,
+Dominica,Afghanistan,0.0,1.0,-61.0,
+Dominican Republic,Afghanistan,0.0,1.0,-61.0,
+East Timor,Afghanistan,0.0,1.0,-61.0,
+Ecuador,Trinidad and Tobago,3.0,1.0,-0.0,62.0
+Egypt,Iraq,56.0,57.0,-0.0,60.542091365258955
+El Salvador,Afghanistan,0.0,1.0,-61.0,
+Equatorial Guinea,Afghanistan,0.0,1.0,-61.0,
+Eritrea,Afghanistan,0.0,1.0,-61.0,
+Estonia,Korea South,2.0,2909.0,-0.0,59.92447148908529
+Eswatini,Afghanistan,0.0,1.0,-61.0,
+Ethiopia,Slovakia,4.0,7.0,-0.0,62.0
+Fiji,Afghanistan,0.0,1.0,-61.0,
+Finland,Lithuania,10.0,1.0,-0.0,61.42931974808953
+France,Slovakia,2200.0,7.0,-0.0,61.994183089670535
+French Guiana,US,6.0,178.0,-0.0,60.86466785693943
+Gabon,Afghanistan,0.0,1.0,-61.0,
+Gambia The,Afghanistan,0.0,1.0,-61.0,
+Georgia,Colombia,3.0,3.0,-0.0,60.578857113765345
+Germany,Spain,266.0,2575.0,-0.0,61.19628555559493
+Ghana,Afghanistan,0.0,1.0,-61.0,
+Greece,Portugal,19.0,5.0,-0.0,61.05802318505386
+Greenland,Afghanistan,0.0,1.0,-61.0,
+Grenada,Afghanistan,0.0,1.0,-61.0,
+Guadeloupe,Afghanistan,0.0,1.0,-61.0,
+Guam,Afghanistan,0.0,1.0,-61.0,
+Guatemala,Afghanistan,0.0,1.0,-61.0,
+Guernsey,Afghanistan,0.0,1.0,-61.0,
+Guinea,Afghanistan,0.0,1.0,-61.0,
+Guyana,Afghanistan,0.0,1.0,-61.0,
+Haiti,Afghanistan,0.0,1.0,-61.0,
+Holy See,Afghanistan,0.0,1.0,-61.0,
+Honduras,Afghanistan,0.0,1.0,-61.0,
+Hungary,Iceland,16.0,36.0,-0.0,60.94705890720262
+Iceland,Hungary,36.0,16.0,-0.0,60.94705890720262
+India,Malaysia,27.0,139.0,-0.0,60.64493236161262
+Indonesia,Algeria,29.0,65.0,-0.0,60.89417350509157
+Iran,Japan,7931.0,235.0,-0.0,60.85740626152814
+Iraq,Bahrain,57.0,149.0,-0.0,61.33815714561013
+Ireland,Peru,5.0,1.0,-0.0,62.00000000000002
+Israel,Romania,37.0,64.0,-0.0,61.50879990229376
+Italy,Bahrain,7024.0,149.0,-0.0,61.441674878598384
+Jamaica,Afghanistan,2.0,1.0,-0.0,62.0
+Japan,United Arab Emirates,235.0,38.0,-0.0,60.97783640308681
+Jersey,Afghanistan,0.0,1.0,-61.0,
+Jordan,North Macedonia,1.0,1.0,-0.0,61.99999999999998
+Kazakhstan,Afghanistan,0.0,1.0,-61.0,
+Kenya,Afghanistan,0.0,1.0,-61.0,
+Korea South,Italy,2909.0,7024.0,-0.0,60.695031071286365
+Kosovo,Afghanistan,0.0,1.0,-61.0,
+Kuwait,Italy,27.0,7024.0,-0.0,61.28451253730242
+Kyrgyzstan,Afghanistan,0.0,1.0,-61.0,
+Latvia,Mexico,1.0,4.0,-0.0,60.879869110613264
+Lebanon,Korea South,8.0,2909.0,-0.0,60.2698695738286
+Liberia,Afghanistan,0.0,1.0,-61.0,
+Liechtenstein,Afghanistan,0.0,1.0,-61.0,
+Lithuania,Finland,1.0,10.0,-0.0,61.42931974808953
+Luxembourg,Monaco,6.0,1.0,-0.0,62.0
+Madagascar,Afghanistan,0.0,1.0,-61.0,
+Malaysia,Germany,139.0,266.0,-0.0,60.828494191110046
+Maldives,Afghanistan,0.0,1.0,-61.0,
+Malta,Portugal,2.0,5.0,-0.0,59.69562058320145
+Martinique,Afghanistan,0.0,1.0,-61.0,
+Mauritania,Afghanistan,0.0,1.0,-61.0,
+Mauritius,Afghanistan,0.0,1.0,-61.0,
+Mayotte,Afghanistan,0.0,1.0,-61.0,
+Mexico,Latvia,4.0,1.0,-0.0,60.879869110613264
+Moldova,Ireland,1.0,5.0,-0.0,62.00000000000002
+Monaco,Slovakia,1.0,7.0,-0.0,62.0
+Mongolia,Afghanistan,0.0,1.0,-61.0,
+Montenegro,Afghanistan,0.0,1.0,-61.0,
+Morocco,Belarus,3.0,15.0,-0.0,60.00632704656867
+Mozambique,Afghanistan,0.0,1.0,-61.0,
+Namibia,Afghanistan,0.0,1.0,-61.0,
+Nepal,Cambodia,1.0,1.0,-0.0,62.000000000000036
+Netherlands,San Marino,2.0,4.0,-0.0,62.00000000000002
+New Zealand,Afghanistan,0.0,1.0,-61.0,
+Nicaragua,Afghanistan,0.0,1.0,-61.0,
+Niger,Afghanistan,0.0,1.0,-61.0,
+Nigeria,Colombia,2.0,3.0,-0.0,59.49773154161554
+North Macedonia,Jordan,1.0,1.0,-0.0,61.99999999999998
+Norway,Latvia,1.0,1.0,-1.0,60.22644767873994
+Oman,Japan,17.0,235.0,-0.0,60.122376010781096
+Pakistan,Qatar,5.0,33.0,-2.0,58.97745425005915
+Panama,Afghanistan,0.0,1.0,-61.0,
+Papua New Guinea,Afghanistan,0.0,1.0,-61.0,
+Paraguay,Afghanistan,0.0,1.0,-61.0,
+Peru,Ireland,1.0,5.0,-0.0,62.00000000000002
+Philippines,Romania,17.0,64.0,-0.0,61.318110607835244
+Poland,Burkina Faso,1.0,5.0,-5.0,61.82176632028926
+Portugal,Greece,5.0,19.0,-0.0,61.05802318505386
+Puerto Rico,Afghanistan,0.0,1.0,-61.0,
+Qatar,Iceland,33.0,36.0,-0.0,60.62623234209901
+Republic of the Congo,Afghanistan,0.0,1.0,-61.0,
+Reunion,Afghanistan,0.0,1.0,-61.0,
+Romania,Israel,64.0,37.0,-0.0,61.50879990229376
+Russia,India,16.0,27.0,-0.0,59.96298608888309
+Rwanda,Afghanistan,0.0,1.0,-61.0,
+Saint Lucia,Afghanistan,0.0,1.0,-61.0,
+Saint Vincent and the Grenadines,Afghanistan,0.0,1.0,-61.0,
+San Marino,Netherlands,4.0,2.0,-0.0,62.00000000000002
+Saudi Arabia,Israel,16.0,37.0,-0.0,61.45721244700677
+Senegal,Belarus,5.0,15.0,-0.0,60.75852510544375
+Serbia,Afghanistan,1.0,1.0,-0.0,62.0
+Seychelles,Afghanistan,0.0,1.0,-61.0,
+Singapore,China,144.0,72814.0,-0.0,60.94268369567583
+Slovakia,Cyprus,7.0,3.0,-0.0,62.0
+Slovenia,Afghanistan,0.0,1.0,-61.0,
+Somalia,Afghanistan,0.0,1.0,-61.0,
+South Africa,Afghanistan,0.0,1.0,-61.0,
+Spain,Germany,2575.0,266.0,-0.0,61.19628555559493
+Sri Lanka,Malaysia,3.0,139.0,-0.0,48.8560209006965
+Sudan,Afghanistan,0.0,1.0,-61.0,
+Suriname,Afghanistan,0.0,1.0,-61.0,
+Sweden,Kuwait,16.0,27.0,-0.0,57.280883728765275
+Switzerland,France,131.0,2200.0,-0.0,61.24740917544533
+Syria,Afghanistan,0.0,1.0,-61.0,
+Taiwan*,Japan,28.0,235.0,-0.0,59.68710217393514
+Tanzania,Afghanistan,0.0,1.0,-61.0,
+Thailand,Singapore,44.0,144.0,-0.0,60.921266428097475
+The Bahamas,Afghanistan,0.0,1.0,-61.0,
+The Gambia,Afghanistan,0.0,1.0,-61.0,
+Timor-Leste,Afghanistan,0.0,1.0,-61.0,
+Togo,Chile,1.0,8.0,-0.0,61.3345834703113
+Trinidad and Tobago,Burkina Faso,1.0,5.0,-0.0,62.0
+Tunisia,Cyprus,1.0,3.0,-0.0,62.0
+Turkey,Afghanistan,0.0,1.0,-61.0,
+US,French Guiana,178.0,6.0,-0.0,60.86466785693943
+Uganda,Afghanistan,0.0,1.0,-61.0,
+Ukraine,Burkina Faso,1.0,5.0,-0.0,62.0
+United Arab Emirates,Japan,38.0,235.0,-0.0,60.97783640308681
+United Kingdom,Croatia,67.0,5.0,-0.0,59.2445226997688
+Uruguay,Afghanistan,0.0,1.0,-61.0,
+Uzbekistan,Afghanistan,0.0,1.0,-61.0,
+Venezuela,Cyprus,15.0,3.0,-0.0,61.99999999999999
+Vietnam,Thailand,17.0,44.0,-0.0,57.532978309435514
+Zambia,Afghanistan,0.0,1.0,-61.0,
+Zimbabwe,Afghanistan,0.0,1.0,-61.0,

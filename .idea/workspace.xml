@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Italy-Iraq-Recovered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/US-Germany-Confirmed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/US-Iran-Deaths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/US-Singapore-Recovered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis_confirmed.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis_deaths.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis_recovered.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_confirmed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/max_confirmed.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_deaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/max_deaths.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/max_plots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_recovered.csv" beforeDir="false" afterPath="$PROJECT_DIR$/max_recovered.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +149,9 @@
       <workItem from="1585350472218" duration="634000" />
       <workItem from="1585359904667" duration="13000" />
       <workItem from="1585370175232" duration="680000" />
-      <workItem from="1585623810202" duration="3077000" />
+      <workItem from="1585623810202" duration="3116000" />
+      <workItem from="1585781845347" duration="18000" />
+      <workItem from="1585966087764" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>

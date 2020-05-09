@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e2f6d8-de52-4955-9852-012c385c376b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/url.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Italy-Iraq-time_series_covid19_recovered_global.png" beforeDir="false" afterPath="$PROJECT_DIR$/Italy-Iraq-time_series_covid19_recovered_global.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-Germany-time_series_covid19_confirmed_global.png" beforeDir="false" afterPath="$PROJECT_DIR$/US-Germany-time_series_covid19_confirmed_global.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-Iran-time_series_covid19_deaths_global.png" beforeDir="false" afterPath="$PROJECT_DIR$/US-Iran-time_series_covid19_deaths_global.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_time_series_covid19_confirmed_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_time_series_covid19_confirmed_global.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_time_series_covid19_deaths_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_time_series_covid19_deaths_global.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_time_series_covid19_recovered_global.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_time_series_covid19_recovered_global.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/max_plots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +54,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.max_plots">
+  <component name="RunManager" selected="Python.eda">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="corona" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,6 +100,9 @@
       <module name="corona" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -108,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.max_plots" />
         <item itemvalue="Python.eda" />
+        <item itemvalue="Python.max_plots" />
         <item itemvalue="Python.eda" />
         <item itemvalue="Python.max_plots" />
         <item itemvalue="Python.eda" />
@@ -152,6 +164,9 @@
       <workItem from="1585623810202" duration="3116000" />
       <workItem from="1585781845347" duration="18000" />
       <workItem from="1585966087764" duration="55000" />
+      <workItem from="1588637589083" duration="124000" />
+      <workItem from="1588884017939" duration="1466000" />
+      <workItem from="1589058683414" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="Second Update">
       <created>1584392674314</created>
@@ -216,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584563526476</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update May4">
+      <created>1588637687599</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588637687599</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,13 +254,14 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Fix plot bug" />
     <MESSAGE value="Added Source" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Source" />
+    <MESSAGE value="Update May4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update May4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1584563525888">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1588637686387">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1584563525888" />
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1588637686387" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580403780696">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -259,10 +282,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1585109832669" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584563533992">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1588637696448">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1584563533992" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1588637696448" />
     <state width="780" height="428" key="XDebugger.FullValuePopup" timestamp="1584742864117">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

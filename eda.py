@@ -9,6 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict
+import json
 
 np.seterr(divide='ignore', invalid='ignore')
 
@@ -156,20 +157,26 @@ def analyze(dataset, type, to_plot=False, labels=None, save_plot=True, save_csv=
 
 
 if __name__ == '__main__':
+    f = open('url.json', "r")
+    url = json.load(f)
+
     # Analysis of confirmed cases
-    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
-    dataset = pd.read_csv(url)
-    correlation_confirmed = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+    dataset = pd.read_csv(url['data']['confirmed'])
+    correlation_confirmed = analyze(dataset=dataset,
+                                    type=url['data']['confirmed'].split('/')[-1].split('.')[0].split('-')[-1],
+                                    to_plot=True,
                                     labels=['US', 'Germany'])
 
     # Analysis of recovered cases
-    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
-    dataset = pd.read_csv(url)
-    correlation_recovered = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+    dataset = pd.read_csv(url['data']['recovered'])
+    correlation_recovered = analyze(dataset=dataset,
+                                    type=url['data']['recovered'].split('/')[-1].split('.')[0].split('-')[-1],
+                                    to_plot=True,
                                     labels=['Italy', 'Iraq'])
 
     # Analysis of death cases
-    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
-    dataset = pd.read_csv(url)
-    correlation_deaths = analyze(dataset=dataset, type=url.split('/')[-1].split('.')[0].split('-')[-1], to_plot=True,
+    dataset = pd.read_csv(url['data']['deaths'])
+    correlation_deaths = analyze(dataset=dataset,
+                                 type=url['data']['deaths'].split('/')[-1].split('.')[0].split('-')[-1],
+                                 to_plot=True,
                                  labels=['US', 'Iran'])

@@ -5,6 +5,7 @@ __git__ = "https://github.com/parampopat/"
 """
 
 import pandas as pd
+import json
 
 
 def max_analysis(data):
@@ -19,7 +20,14 @@ def max_analysis(data):
     return pd.DataFrame(rows, columns=data.columns)
 
 
+def plot_max(data, url):
+    pass
+
+
 if __name__ == '__main__':
+    f = open('url.json', "r")
+    url = json.load(f)
+
     # Analysis of confirmed cases
     data = pd.read_csv('analysis_time_series_covid19_confirmed_global.csv')
     max_confirmed = max_analysis(data)
@@ -34,3 +42,4 @@ if __name__ == '__main__':
     data = pd.read_csv('analysis_time_series_covid19_deaths_global.csv')
     max_confirmed = max_analysis(data)
     max_confirmed.to_csv('max_deaths.csv', index=False)
+

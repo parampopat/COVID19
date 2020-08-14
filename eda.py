@@ -165,18 +165,18 @@ if __name__ == '__main__':
     correlation_confirmed = analyze(dataset=dataset,
                                     type=url['data']['confirmed'].split('/')[-1].split('.')[0].split('-')[-1],
                                     to_plot=True,
-                                    labels=['US', 'Germany'])
+                                    labels=['US', 'India'])
 
     # Analysis of recovered cases
     dataset = pd.read_csv(url['data']['recovered'])
     correlation_recovered = analyze(dataset=dataset,
                                     type=url['data']['recovered'].split('/')[-1].split('.')[0].split('-')[-1],
                                     to_plot=True,
-                                    labels=['Italy', 'Iraq'])
+                                    labels=['US', 'India'])
 
     # Analysis of death cases
     dataset = pd.read_csv(url['data']['deaths'])
     correlation_deaths = analyze(dataset=dataset,
                                  type=url['data']['deaths'].split('/')[-1].split('.')[0].split('-')[-1],
                                  to_plot=True,
-                                 labels=['US', 'Iran'])
+                                 labels=['US', 'India'])

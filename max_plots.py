@@ -42,4 +42,3 @@ if __name__ == '__main__':
     data = pd.read_csv('analysis_time_series_covid19_deaths_global.csv')
     max_confirmed = max_analysis(data)
     max_confirmed.to_csv('max_deaths.csv', index=False)
-
